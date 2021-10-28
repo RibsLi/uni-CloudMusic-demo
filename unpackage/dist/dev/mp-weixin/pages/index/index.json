@@ -1,6 +1,7 @@
 {
   "navigationStyle": "custom",
   "usingComponents": {
-    "music-head": "/components/MusicHead/MusicHead"
+    "music-head": "/components/MusicHead/MusicHead",
+    "top-list": "/components/TopList/TopList"
   }
 }

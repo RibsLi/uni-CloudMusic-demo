@@ -1,0 +1,38 @@
+
+.top-list.data-v-669850ec {
+	margin: 0 30rpx;
+}
+.top-list-item.data-v-669850ec {
+	display: flex;
+	margin-bottom: 34rpx;
+}
+.top-list-img.data-v-669850ec {
+	width: 212rpx;
+	height: 212rpx;
+	position: relative;
+	margin-right: 22rpx;
+	overflow: hidden;
+}
+.top-list-img image.data-v-669850ec {
+	width: 100%;
+	height: 100%;
+	background-color: red;
+	border-radius: 15rpx;
+}
+.top-list-img text.data-v-669850ec {
+	position: absolute;
+	left: 12rpx;
+	bottom: 6rpx;
+	font-size: 20rpx;
+	color: #fff;
+}
+.top-list-text.data-v-669850ec {
+	font-size: 24rpx;
+	line-height: 70rpx;
+	flex: 1;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+}
+
+
