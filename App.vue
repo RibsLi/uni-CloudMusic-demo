@@ -24,4 +24,5 @@
 	.container scroll-view {
 		height: 100%;
 	}
+	button::after{ border: none;}/* 清除uni-app边框线 */
 </style>

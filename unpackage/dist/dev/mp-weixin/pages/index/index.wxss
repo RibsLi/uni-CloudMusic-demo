@@ -1,4 +1,36 @@
 
+.login.data-v-57280228 {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		text-align: center;
+		margin: 0 30rpx;
+		font-size: 24rpx;
+}
+.login-left.data-v-57280228 {
+		display: flex;
+		align-items: center;
+}
+.login-left .usericon.data-v-57280228 {
+		background-color: #ccc;
+		display: inline-block;
+		width: 50rpx;
+		height: 50rpx;
+		line-height: 50rpx;
+		border-radius: 50%;
+		font-size: 35rpx;
+		color: #eee;
+		margin-right: 20rpx;
+}
+.login-left .login-status.data-v-57280228 {
+		color: #aaa;
+}
+.login-right.data-v-57280228 {
+		width: 100rpx;
+		border: 2rpx solid #CCC;
+		padding: 10rpx 20rpx;
+		border-radius: 30rpx;
+}
 .index-search.data-v-57280228 {
 	display: flex;
 	align-items: center;

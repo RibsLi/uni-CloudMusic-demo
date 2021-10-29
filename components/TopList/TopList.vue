@@ -1,6 +1,6 @@
 <template>
 	<view class="top-list">
-		<view class="top-list-item" v-for="(item, index) in topList" :key="index">
+		<view class="top-list-item" v-for="(item, index) in topList" :key="index" @tap="handleToList">
 			<view class="top-list-img">
 				<image :src="item.coverImgUrl" mode="widthFix"></image>
 				<text>{{item.updateFrequency}}</text>
@@ -26,6 +26,13 @@
 				default() {
 					return []
 				}
+			}
+		},
+		methods: {
+			handleToList() {
+				uni.navigateTo({
+					url: "../../pages/songList/songList"
+				})
 			}
 		}
 	}
